@@ -13,7 +13,7 @@ const Home = () => {
     <ThemedView style={styles.container}>
       <ThemedLogo  />
       <Spacer height={20} />
-
+  
       <ThemedText style={styles.title} title={true}>
         The Number 1
         </ThemedText >
@@ -22,11 +22,11 @@ const Home = () => {
       <ThemedText>Reading list App</ThemedText>
       <Spacer />
 
-      <Link href="/about" style={styles.links}>
-        <ThemedText>About Page</ThemedText>
+      <Link href="/login" style={styles.links}>
+        <ThemedText>Login Page</ThemedText>
       </Link>
-      <Link href="/contact" style={styles.links}>
-        <ThemedText>Contact Page</ThemedText>
+      <Link href="/register" style={styles.links}>
+        <ThemedText>Register Page</ThemedText>
       </Link>
     </ThemedView>
   )
