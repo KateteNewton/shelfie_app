@@ -31,6 +31,11 @@ const Login = () => {
                     Register Instead
                 </ThemedText>
             </Link>
+            <Spacer />
+            <Link href="/profile" style={styles.links}>
+                <ThemedText>Profile Page</ThemedText>
+            </Link>
+            <Spacer />
 
         </ThemedView>
         
